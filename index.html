@@ -1,50 +1,267 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    
-<title>Mi Primera P�gina Web</title>
-<style type="text/css">
-<!--
-.Estilo1 {color: #FF0000}
-.Estilo2 {color: #800040}
-.Estilo3 {
-	color: #408080;
-	font-weight: bold;
-}
-.Estilo4 {color: #521DDE}
-.Estilo5 {color: #61FA6C}
-.Estilo6 {color: #D650F8}
-.Estilo7 {color: #FF8040}
-.Estilo8 {color: #008080}
--->
-</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PelisHub Inicio </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #141414;
+            color: #fff;
+        }
+
+        header {
+            background-color: #000;
+            padding: 1em;
+            text-align: center;
+        }
+
+        .logo {
+            width: 150px;
+            height: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .categories {
+            padding: 2em;
+        }
+
+        table {
+            width: 100%;
+            margin-bottom: 2em;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            padding: 1em;
+            border: none; /* Sin bordes para las tablas */
+        }
+
+        .movie img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #000;
+        }
+    </style>
 </head>
-
 <body>
-<h1 align="center" class="Estilo2"> BIENVENIDOS A MI PERFIL</h1>
-<h2 align="left" class="Estilo3"> Sobre M&iacute; </h2>
-<strong>
-<p class="Estilo1" style=" #FF0000;"> Hola, mi nombre es Modesto Yarel Benito Luciano, estudiante de la especialidad de PROGRAMACI&Oacute;N. Me gusta la pizza y las artes marciales mixtas.Disfruto de dormir y no hacer nada </p>
-</strong>
-<h2 class="Estilo4"> Mis Pasatiempos </h2>
-<ul>
-<li class="Estilo5"> Dormir</li>
-<li class="Estilo5"> Comer </li>
-<li class="Estilo5"> Dibujar</li>
-<li class="Estilo5"> Entrenar MMA</li>
-<li class="Estilo5"> Jugar Cod Movil</li>
-<li class="Estilo5"> Dormir</li>
-</ul>
-<h2 class="Estilo6"> Te Invito a Cuidar El Medio Ambiente </h2>
-<p class="Estilo6"><img src="IMG/WhatsApp Image 2024-05-07 at 17.23.08 (3).png" width="359" height="229"></p>
-<h2 class="Estilo7">Recursos Sobre El Medio Ambiente </h2>
+    <header><img src="img/TextPro.me_167bcf0a274382.jpg" width="101" height="35" align="left">
+      <nav><img src="img/unnamed.png" width="68" height="65">
+        <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Películas</a></li>
+                <li><a href="#">Novedades</a></li>
+                <li><a href="#">Mi Lista</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <div class="categories">
+            <table width="106%">
+                <tr>
+                    <th height="51" colspan="5"><div align="left">Animaciones para niños</div></th>
+                </tr>
+                <tr>
+                    <td width="20%" height="210"><a href="https://www.youtube.com/watch?v=UIo8BFJQFnU">
+                      <img src="img/overflow.jpg" alt="Pel�cula 1" width="209" height="241">
+                      <p align="center"> Overflow</p>
+                  </a></td>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=YUDbl9qBihk">
+                      <img src="img/dragon_ball_daima_by_pedrovpart_dgdfpun-pre.jpg" alt="Pel�cula 2" width="209" height="241">
+                      <p align="center">Dragon Ball Daima </p>
+                  </a></td>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=AqY_I8bWjTk">
+                      <img src="img/a4ae0f5af5f2790c49a0640edce97762.jpg" alt="Pel�cula 3" width="206" height="241">
+                      <p align="center">Pepa Pig </p>
+                  </a></td>
+                  <td width="20%"><a href="https://www.youtube.com/watch?v=CwXOrWvPBPk">
+                    <img src="img/shrek-fan-casting-poster-300618-large.jpg" alt="Pel�cula 4" width="225" height="241">
+                    <p align="center">Shrek </p>
+                  </a></td>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=DmCZoiCp5C0">
+                      <img src="img/the-super-mario-bros-movie-fan-casting-poster-276499-medium.jpg" alt="Pel�cula 5" width="173" height="227">
+                      <p align="center">Super Mario Bros The Movie </p>
+                  </a></td>
+                </tr>
+          </table>
 
-<ul class="Estilo8">
-<li><a href="https://youtu.be/bR2X6sqsAiY?si=kzTRo7H7mBeiM54O"target="_blank">Contaminaci&oacute;n del Mundo Animaci&oacute;n</a></li>
-<li><a href="https://youtu.be/8yo99_T4QZI?si=JjGZInAKunLRCJov"target="_blank">Cuidado al Medio Ambiente</a></li>
-<li><a href="https://www.nationalgeographic.es/medio-ambiente"target="_blank">Medio Ambiente</a></li>
-</ul>
+            <table>
+              <tr>
+                <th colspan="5"><div align="left">Comedia</div></th>
+              </tr>
+              <tr>
+                <td width="20%" height="320">
+                  <a href="https://www.youtube.com/watch?v=XraLK514Po8">
+                  <div align="left"><img src="img/y-donde-estan-las-rubias.jpg" alt="Pel�cula 6" width="198" height="258"></div>
+                  </a>
+                  <p align="left"><a href="https://www.youtube.com/watch?v=XraLK514Po8">¿...Y Donde Están Las</a><a href="https://www.youtube.com/watch?v=XraLK514Po8">Rubias?</a></p>
+                <a href="https://www.youtube.com/watch?v=XraLK514Po8"></a></td>
+                <td width="20%"><div align="left">
+				<a href="https://www.youtube.com/watch?v=2kbEjzmhHU0">
+				<img src="img/cd23050a9011373f37c7720d95deb2f30a6caa35c116716520d3891f0cf13cf5.jpg" alt="Pel�cula 7" width="210" height="246">				  </a></div>
+                  <p align="left"><a href="https://www.youtube.com/watch?v=2kbEjzmhHU0">¿Y Donde Está </a><a href="#">El Fantasma? </a></p>
+                <a href="https://www.youtube.com/watch?v=ao48Y-dbVVA"></a></td>
+                <td width="20%">
+                  <a href="https://www.youtube.com/watch?v=ao48Y-dbVVA">                  </a>
+                  <div align="center"><a href="https://www.youtube.com/watch?v=ao48Y-dbVVA">
+                    <div align="justify">
+					<img src="img/MV5BMjExNDQwM2QtYjFiNy00N2ZlLWE4ZGEtODdmYjY5NDdhNWE3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Pel�cula 8" width="216" height="275"></div>
+                  </a></div>
+                  <a href="https://www.youtube.com/watch?v=ao48Y-dbVVA"></a>                  
+                <p align="center"><a href="https://www.youtube.com/watch?v=ao48Y-dbVVA">Scary Movie 4 </a></p></td>
+                <td width="20%"><a href="https://www.youtube.com/watch?v=2CJd3WVSGLE">
+                  <img src="img/MV5BMTI0NTA3MjI3NV5BMl5BanBnXkFtZTcwNTI1ODYzMQ@@._V1_FMjpg_UX1000_.jpg" alt="Pel�cula 9" width="216" height="275">
+                  <p align="center">Chiquito pero peligroso</p>
+                  </a></td>
+                <td width="20%"><a href="https://www.youtube.com/watch?v=lfs5-YMR8Q8&list=PLoTozNyhw_Gccs_UuF6I54z7HmgxzZCVl">
+				<img src="img/255e6e398ae74516f175327d5ae065b48375dc536545ff5f3af6c9814b4d4b91.jpg" alt="Pel�cula 10" width="206" height="275">
+                </a>                  <p align="left"><a href="https://www.youtube.com/watch?v=lfs5-YMR8Q8&list=PLoTozNyhw_Gccs_UuF6I54z7HmgxzZCVl">Me Quieren Volver Loco </a></p></td>
+              </tr>
+            </table>
+            <table width="97%">
+                <tr>
+                    <th colspan="5"><div align="left">Suspenso</div></th>
+                </tr>
+                <tr>
+                    <td width="17%"><a href="https://www.youtube.com/watch?v=aLAKJu9aJys">
+					<img src="img/710l2RwpWDL._AC_UF894,1000_QL80_.jpg" alt="Pel�cula 11" width="218" height="283">
+                  <p align="center">Háblame</p>
+                    </a></td>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=Att_1CFpGJU">
+					<img src="img/13-minutes-movie-poster-min.jpg" alt="Pel�cula 12" width="201" height="270">
+                  <p align="center">13 Minutos</p></td>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=3Mb-Y-tUZm0">
+					<img src="img/3ksnepimij4hsaqvxozkfxzwrnm.jpg" alt="Pel�cula 13" width="213" height="271">
+                  <p align="center">Las Hijas de Reich </p>
+                  </a></td>
+                    <td width="21%"><a href="https://www.youtube.com/watch?v=_jSmuarCahU">
+                      <img src="img/vbfSnLfrh5yiIAs05eFANNJPKhj.jpg" alt="Pel�cula 14" width="207" height="268">
+                      <p align="left"> La Hora Del Silencio </p>
+                    </a></td>
+                    <td width="22%"><a href="https://www.youtube.com/watch?v=fk_2y-XJrIM">
+                      <img src="img/the_rental-418109223-large.jpg" alt="Pel�cula 15" width="206" height="258">
+                      <p align="center">Vigilados</p>
+                    </a></td>
+                </tr>
+          </table>
+
+            <table width="107%">
+                <tr>
+                    <th colspan="5"><div align="left">Romance</div></th>
+                </tr>
+                <tr>
+                    <td width="20%" height="297"><a href="https://www.youtube.com/watch?v=6USnICkT-zw">
+					<img src="img/llamame+por+tu+nombre.jpg" alt="Pel�cula 16" width="220" height="249">
+                  <p align="center">Llamame Por Tu Nombre </p>
+                  </a></td>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=9Lt8QAZkc94&list=PLcCjE9qYYFQjNR1KMdK-Rh4Ojdu4BwawN&index=1">
+                      <img src="img/034641.jpg" alt="Pel�cula 17" width="220" height="249">
+                      <p align="center">Bajo La Misma Estrella </p>
+                  </a></td>
+                    <td width="17%"><a href="https://www.youtube.com/watch?v=JybRPDmI7-k">
+					<img src="img/a19337b5718b044864cda76df930c648.jpg" alt="Pel�cula 19" width="207" height="249">
+                      <p align="center">Sin Compromiso </p>
+                  </a></td>
+                    <td width="16%"><a href="https://www.youtube.com/watch?v=9SWDzWL6r6o">
+					<img src="img/d0079c36984b77b1e224bb27314e6568.jpg" alt="Pel�cula 19" width="213" height="249">
+                  <p align="center">Love, Rosie </p>
+                  </a></td>
+                    <td width="27%"><a href="#">
+                      <img src="img/MV5BMTA1ODUzMDA3NzFeQTJeQWpwZ15BbWU3MDgxMTYxNTk@._V1_.jpg" alt="Pel�cula 20" width="190" height="249">
+                      <p align="center">Una Cuestión de Tiempo </p>
+                  </a></td>
+                </tr>
+          </table>
+
+            <table width="104%">
+                <tr>
+                    <th colspan="5"><div align="left">Terror</div></th>
+                </tr>
+                <tr>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=Q_P8WCbhC6s&list=PLyC2KZedQ3NxQun4-lo1jluHvSHyHCbpc">
+					<img src="img/05e4344b79c186508d1eba4c535f53a6.jpg" alt="Pel�cula 21" width="208" height="274">
+                  <p align="center">Hush</p>
+                  </a></td>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=5Kp0nWQdMMc">
+					<img src="img/4rFJZjGPZjeOg8LpdeXpWB7uzJ1.jpg" alt="Pel�cula 22" width="227" height="257">
+                  <p align="center">No Hables Con Extraños </p>
+                  </a></td>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=vTutJ2_E1Vo">
+					<img src="img/812G1eT1W8L._AC_UF1000,1000_QL80_.jpg" alt="Pel�cula 23" width="219" height="262">
+                  <p align="center">Terrifier 1 </p>
+                  </a></td>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=mkK0iLvaRzQ">
+					<img src="img/47538-162424-20241031091059.jpg" alt="Pel�cula 24" width="212" height="261">
+                  <p align="center">Terrifier 3 </p>
+                  </a></td>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=GQ0_lY23VAs"> 
+					<img src="img/terrifier-el-payaso-siniestro_SWITQzQ.png" alt="Pel�cula 25" width="202" height="257">
+                  <p align="center">Terrifier 2 </p>
+                  </a></td>
+                </tr>
+          </table>
+
+            <table width="99%" height="388">
+                <tr>
+                    <th colspan="5"><div align="left">Series</div></th>
+                </tr>
+                <tr>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=CNnYwQJnX48">
+					<img src="img/MV5BNmZjYWI2MWQtYmJiZC00MTkwLWIwNGQtNTRjYzRmNmYyZjA5XkEyXkFqcGc@._V1_QL75_UY281_CR3,0,190,281_.jpg" alt="Serie 1" width="204" height="298">
+                  <p align="center">Dragon Ball Heroes </p>
+                  </a></td>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=w1jkStuRQU8"> 
+					<img src="img/MV5BZDI0Zjk2NjMtOGRhMy00YzkyLWIwMzgtYmNiZDczM2IzOTAzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Serie 2" width="214" height="298">
+                  <p align="center">La Casa De Papel </p>
+                  </a></td>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=KHucKOK-Vik">
+                      <img src="img/MV5BMzlmMmIxODItYzBjNC00YjMwLWIwOTAtNzVlMTBlNTNkMjZjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Serie 3" width="204" height="298">
+                      <p align="center">The Umbrella Academy </p>
+                  </a></td>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=TCtxmkV2MCQ">
+					<img src="img/911akONEKzL._UF894,1000_QL80_.jpg" alt="Serie 4" width="223" height="298">
+                  <p align="center">Dan DaDan </p>
+                  </a></td>
+                    <td width="20%"><a href="https://www.youtube.com/watch?v=9YkyGz8ErA0">
+                      <img src="img/MV5BOWJhYjdjNWEtMWFmNC00ZjNkLThlZGEtN2NkM2U3NTVmMjZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Serie 5" width="218" height="298">
+                      <p align="center">Arcane</p>
+                  </a></td>
+                </tr>
+          </table>
+        </div>
+    </main>
+
+<footer>
+        <p>&copy; 2025 Pelis Hub Centro de Peliculas para todos.Derechos de autor.Hecho por Mou Benito.Arriba Bad Bunny y Duki </p>
+    </footer>
 </body>
 </html>
